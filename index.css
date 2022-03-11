@@ -104,6 +104,8 @@
     margin: 0 auto;
     padding-top: 50px;
     min-height:500px;
+    display: flex;
+    flex-wrap:wrap;
 }
 
 #image-4 img{
@@ -111,6 +113,7 @@
     height: 300px;
     padding-left: 100px;
     padding-bottom: 40px;
+    display: inline;
 }
 
 #image-5{
@@ -126,20 +129,21 @@
 }
 
 #image-5 h1:nth-child(2){
-    width: 70%;
-    float: right;
+    text-align: right;
     color: white;
     font-size: 3rem;
-    text-align: right;
     padding-right: 40px;
 }
 
 #image-5 p{
     font-size: 1rem;
     color: white;
-    width: 70%;
-    float: right;
     text-align: right;
-    padding-right: 40px;
     padding-top: 20px;
+    padding-right: 40px;
+}
+
+#image-6 img{
+    display: inline;
+    width: 300px;
 }
