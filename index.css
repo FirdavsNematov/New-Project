@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+#main-bottom{
     text-decoration: none;
     font-family: "Inter", cursive;
     color: black;
@@ -11,7 +14,6 @@
     margin: 0 auto 50px;
     display: flex;
     padding-top: 50px;
-
 }
 
 #main-bottom-text-center {
